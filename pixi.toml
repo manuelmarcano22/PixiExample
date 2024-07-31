@@ -1,0 +1,13 @@
+[project]
+name = "PixiExample"
+version = "0.1.0"
+description = "Add a short description here"
+channels = ["conda-forge"]
+platforms = ["osx-64","linux-64","osx-arm64","win-64"]
+
+[tasks]
+example = "python anal.py"
+
+[dependencies]
+scipy = ">=1.14.0,<2"
+matplotlib = ">=3.9.1,<4"
