@@ -6,6 +6,7 @@ channels = ["conda-forge"]
 platforms = ["osx-64"]
 
 [tasks]
+example = "python anal.py"
 
 [dependencies]
 scipy = ">=1.14.0,<2"
